@@ -1,0 +1,17 @@
+.DS_Store
+node_modules
+.docker
+.env
+public/images/*
+!public/images/.gitkeep
+logs
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
