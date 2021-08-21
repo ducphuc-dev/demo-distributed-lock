@@ -2,7 +2,7 @@ import mongoose from 'mongoose'
 import keys from '../../config/env/keys'
 export const connectMongoDb = () => {
 	const connect = () => {
-		const dbHost = process.env.DB_HOST || 'localhost'
+		const dbHost = process.env.DB_HOST || 'db'
 		const dbPort = process.env.DB_PORT || 27017
 		const dbName = process.env.DB_NAME || 'bato-backend'
 		const mongoUrl = `mongodb://${dbHost}:${dbPort}/${dbName}`
