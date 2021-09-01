@@ -3,28 +3,24 @@ version: "3.4"
 services:
   app:
     image: bato-backend:v1
+    build: # for --build when run docker-compose up with --build option
+      context: .
+      dockerfile: Dockerfile
     # volumes:
     #   - ./:/app # mount từ môi trường gốc vào trong để nếu các bạn thay đổi code thì bên trong sẽ tự động cập nhật
-    environment: # phần này ta định nghĩa ở file .env nhé
-      - DB_HOST=${DB_HOST}
-      - DB_NAME=${DB_NAME}
-      - REDIS_HOST=${REDIS_HOST}
-      - REDIS_PORT=${REDIS_PORT}
-      - PORT=${PORT}
     ports:
-      - "${PORT}:${PORT}" # phần này ta định nghĩa ở file .env nhé
+      - "8080:8080"
     restart: unless-stopped
     depends_on:
         - redis
         - db
-  
   db:
     image: mongo
     volumes:
       - .docker/data/db:/data/db
     restart: unless-stopped
     ports:
-      - "${DB_PORT}:${DB_PORT}"
+      - "27017:27017"
   
   redis:
     image: redis:5-alpine
