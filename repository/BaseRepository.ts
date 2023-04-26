@@ -39,7 +39,7 @@ export abstract class BaseRepository<T> implements IWrite<T>, IRead<T> {
 
     async findById(id: string) {
         try {
-            const result = await this.model.findById(ObjectId(id));
+            const result = await this.model.findById(ObjectId(id)).lean();
             return result;
         } catch (error) {
             return null;
@@ -53,7 +53,7 @@ export abstract class BaseRepository<T> implements IWrite<T>, IRead<T> {
                 throw new NotFoundError('Database Error: Không tìm thấy');
             }
             return result;
-        } catch (error) {
+        } catch (error:any) {
             if (error instanceof NotFoundError) {
                 throw error;
             } else {

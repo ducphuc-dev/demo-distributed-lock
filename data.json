@@ -1,0 +1,536 @@
+{
+  "_id": {
+    "$oid": "642fa0c9c4715b6bbcc29ced"
+  },
+  "name": "Chuyện Tôi Và Ma Quỷ Thành Người Một Nhà",
+  "m_id": "CTVMQTNMN",
+  "duration": 90,
+  "showtimes": [
+    {
+      "_id": {
+        "$oid": "642fa0c9c4715b6bbcc29cee"
+      },
+      "start_time": "07-04-2023 09:00",
+      "end_time": "07-04-2023 10:30",
+      "room": "R1",
+      "tickets": [
+        {
+          "ticket_id": "A1",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "A2",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "A3",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "A4",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "A5",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "B1",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "B2",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "B3",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "B4",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "B5",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "C1",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "C2",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "C3",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "C4",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "C5",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "D1",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "D2",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "D3",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "D4",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "D5",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "642fa0c9c4715b6bbcc29cef"
+      },
+      "start_time": "07-04-2023 11:00",
+      "end_time": "07-04-2023 12:30",
+      "room": "R2",
+      "tickets": [
+        {
+          "ticket_id": "A1",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "A2",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "A3",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "A4",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "A5",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "B1",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "B2",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "B3",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "B4",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "B5",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "C1",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "C2",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "C3",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "C4",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "C5",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "D1",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "D2",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "D3",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "D4",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "D5",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "642fa0c9c4715b6bbcc29cf0"
+      },
+      "start_time": "07-04-2023 11:00",
+      "end_time": "07-04-2023 12:30",
+      "room": "R3",
+      "tickets": [
+        {
+          "ticket_id": "A1",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "A2",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "A3",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "A4",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "A5",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "B1",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "B2",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "B3",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "B4",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "B5",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "C1",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "C2",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "C3",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "C4",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "C5",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "D1",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "D2",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "D3",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "D4",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "D5",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "642fa0c9c4715b6bbcc29cf1"
+      },
+      "start_time": "08-04-2023 11:00",
+      "end_time": "08-04-2023 12:30",
+      "room": "R3",
+      "tickets": [
+        {
+          "ticket_id": "A1",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "A2",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "A3",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "A4",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "A5",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "B1",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "B2",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "B3",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "B4",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "B5",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "C1",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "C2",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "C3",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "C4",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "C5",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "D1",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "D2",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "D3",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "D4",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        },
+        {
+          "ticket_id": "D5",
+          "status": "empty",
+          "user_id": null,
+          "ordered_at": null
+        }
+      ]
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-04-07T04:49:13.677Z"
+  },
+  "updatedAt": {
+    "$date": "2023-04-07T04:49:13.677Z"
+  }
+}

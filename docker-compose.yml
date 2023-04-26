@@ -2,7 +2,7 @@ version: "3.4"
 
 services:
   app:
-    image: bato-backend:v1
+    image: movie-be:v1
     build: # for --build when run docker-compose up with --build option
       context: .
       dockerfile: Dockerfile

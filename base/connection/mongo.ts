@@ -5,7 +5,7 @@ export const connectMongoDb = () => {
 		const dbHost = process.env.DB_HOST || 'db'
 		const dbPort = process.env.DB_PORT || 27017
 		const dbName = process.env.DB_NAME || 'bato-backend'
-		const mongoUrl = `mongodb://${dbHost}:${dbPort}/${dbName}`
+		const mongoUrl = `mongodb+srv://iqaproasia:Qn3bunsRPqzK9hpH@iqadb.nlqzlx4.mongodb.net/test`
 		// const DB_URL = keys.mongoDbUrl
 		mongoose.Promise = global.Promise
 		mongoose.connect(
